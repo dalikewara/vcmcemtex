@@ -1,0 +1,42 @@
+"use strict";
+
+const vcmpad = require('./app.js');
+
+console.log('left');
+console.log("'" + vcmpad.left(10, 'test') + "'");
+console.log("'" + vcmpad.left(10, 'test', '') + "'");
+console.log("'" + vcmpad.left(10, 'test', 0) + "'");
+console.log("'" + vcmpad.left(10, 'test', '0') + "'");
+console.log("'" + vcmpad.left(10, 'test', 'left') + "'");
+console.log("'" + vcmpad.left(10, 'test', 'left', false) + "'");
+console.log("'" + vcmpad.left(10, 'test', ' ') + "'");
+console.log("'" + vcmpad.left(10, 'test', null, true) + "'");
+console.log("'" + vcmpad.left(10, 'test', false, true) + "'");
+console.log("'" + vcmpad.left(10, 'test1234567890') + "'");
+console.log("'" + vcmpad.left(10, 'test1234567', null, false) + "'");
+console.log("'" + vcmpad.left(10, 'test1234567', null, true) + "'");
+console.log("'" + vcmpad.left(10, null) + "'");
+console.log("'" + vcmpad.left(10, 0) + "'");
+console.log("'" + vcmpad.left(0) + "'");
+console.log("'" + vcmpad.left(null, 'test') + "'");
+console.log("'" + vcmpad.left() + "'");
+console.log('\n');
+
+console.log('right');
+console.log("'" + vcmpad.right(10, 'test') + "'");
+console.log("'" + vcmpad.right(10, 'test', '') + "'");
+console.log("'" + vcmpad.right(10, 'test', 0) + "'");
+console.log("'" + vcmpad.right(10, 'test', '0') + "'");
+console.log("'" + vcmpad.right(10, 'test', 'right') + "'");
+console.log("'" + vcmpad.right(10, 'test', 'right', false) + "'");
+console.log("'" + vcmpad.right(10, 'test', ' ') + "'");
+console.log("'" + vcmpad.right(10, 'test', null, true) + "'");
+console.log("'" + vcmpad.right(10, 'test', false, true) + "'");
+console.log("'" + vcmpad.right(10, 'test1234567890') + "'");
+console.log("'" + vcmpad.right(10, 'test1234567', null, false) + "'");
+console.log("'" + vcmpad.right(10, 'test1234567', null, true) + "'");
+console.log("'" + vcmpad.right(10, null) + "'");
+console.log("'" + vcmpad.right(10, 0) + "'");
+console.log("'" + vcmpad.right(0) + "'");
+console.log("'" + vcmpad.right(null, 'test') + "'");
+console.log("'" + vcmpad.right() + "'");

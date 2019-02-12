@@ -1,0 +1,36 @@
+{
+  "name": "vcmcemtex",
+  "description": "Universal & customable cemtext generator for batch transactions",
+  "main": "app.js",
+  "authors": [
+    "Dali Kewara"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tool",
+    "toolkit",
+    "vascomm",
+    "string",
+    "cemtex",
+    "cemtext",
+    "helper",
+    "format",
+    "bank",
+    "batch",
+    "transaction",
+    "file",
+    "generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalikewara/vcmcemtex.git"
+  },
+  "homepage": "https://github.com/dalikewara/vcmcemtex",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
